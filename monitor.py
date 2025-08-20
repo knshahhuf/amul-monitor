@@ -5,7 +5,7 @@ from pushbullet import Pushbullet
 
 URL = "https://shop.amul.com/en/product/amul-chocolate-whey-protein-34-g-or-pack-of-60-sachets"
 CHECK_INTERVAL = 300  # 5 minutes
-PUSHBULLET_API_KEY = "YOUR_PUSHBULLET_API_KEY"
+PUSHBULLET_API_KEY = "o.d496G7oXop97Fd0k6dq5GSrv4lDJlMoa"
 
 def check_availability():
     headers = {"User-Agent": "Mozilla/5.0"}
