@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask
 URL = "https://shop.amul.com/en/product/amul-chocolate-whey-protein-34-g-or-pack-of-60-sachets"
-CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "300"))  # seconds
+CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "900"))  # seconds
 PUSHBULLET_API_KEY = os.getenv("PUSHBULLET_API_KEY")
 app = Flask(__name__)
 def check_availability():
